@@ -37,5 +37,6 @@ def add_s(array)
   array.collect do |word| 
     if word != "feet"
       word + "s"
+    end
   end
 end
