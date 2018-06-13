@@ -34,6 +34,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.collect do |word| word != array[1] word + "s" 
+  array.collect do |word| word != array[1] : word + "s" 
+  #new_a = old_a.map { |x| (x=="b" ? x+"!" : x) }
   end
 end
